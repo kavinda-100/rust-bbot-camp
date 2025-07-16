@@ -10,6 +10,7 @@ mod my_option;
 mod my_struct;
 mod my_methods;
 mod my_generic;
+mod my_traits;
 
 fn main() {
 
@@ -41,8 +42,11 @@ fn main() {
     // my_methods::start()
 
     // Call the start function from the my_generic module
-    my_generic::start();
+    // my_generic::start();
 
+    // Call the start function from the my_traits module
+    my_traits::start();
+    
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();
 }
