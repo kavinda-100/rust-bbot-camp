@@ -1,5 +1,3 @@
-use std::fmt::format;
-
 pub fn start(){
 
     trait Animal {
