@@ -40,4 +40,18 @@ pub fn start() {
     full_names.for_each(|(first_name, last_name)| {
         println!("First: {} Last: {}", first_name, last_name);
     });
+
+    // fold method (similar to reduce in javascript)
+    let foods = vec!["Pizza", "Burger", "Pasta"];
+    // calculate the total length of all food names
+    let foods_count = foods.iter().fold(0u32, |mut acc, &food| {
+        acc += food.len() as u32;
+        acc
+    });
+    println!("Total length of food names: {}", foods_count);
+    // more example
+    let numbers = vec![1, 2, 3, 4, 5];
+    // calculate the sum of all numbers
+    let sum: i32 = numbers.iter().fold(0, |acc, &x| acc + x);
+    println!("Sum of numbers: {}", sum);
 }
