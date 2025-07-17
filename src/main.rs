@@ -12,6 +12,7 @@ mod my_methods;
 mod my_generic;
 mod my_traits;
 mod my_vec;
+mod my_hash_map;
 
 fn main() {
 
@@ -49,7 +50,10 @@ fn main() {
     // my_traits::start();
 
     // Call the start function from the my_vec module
-    my_vec::start();
+    // my_vec::start();
+
+    // Call the start function from the my_hash_map
+    my_hash_map::start();
     
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();
