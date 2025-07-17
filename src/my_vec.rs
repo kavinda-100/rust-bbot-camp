@@ -35,6 +35,47 @@ pub fn start(){
 
     println!("== Append to the Vec ===");
     append_to_vector();
+    retain_vec();
+}
+
+fn retain_vec(){
+    #[derive(Debug)]
+    struct Car {
+        name: String,
+        year: u32,
+    }
+
+    let mut cars: Vec<Car> = Vec::new();
+
+    for i in 1..20 {
+        if (i % 2 == 0){
+            let car = Car {
+                name: String::from("BMW"),
+                year: 2024,
+            };
+            cars.push(car);
+        }
+        else {
+            let car = Car {
+                name: String::from("Toyota"),
+                year: 2020,
+            };
+
+            cars.push(car);
+        }
+    }
+
+    let keep = |x: &Car|  {
+        return if (x.name.contains("BMW")) {
+            true
+        } else {
+            false
+        }
+    };
+
+    cars.retain(keep);
+    println!(" === filter vec ===");
+    println!("{:?}", cars);
 }
 
 fn append_to_vector() {
