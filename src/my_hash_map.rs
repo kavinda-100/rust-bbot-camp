@@ -23,5 +23,5 @@ pub fn start(){
         println!("Key: {}, Value: {}", key, value);
     }
     // Print the length of the HashMap
-    println!("HashMap length: {}", my_hash_map.len());
+    println!("HashMap length is: {}", my_hash_map.len());
 }
