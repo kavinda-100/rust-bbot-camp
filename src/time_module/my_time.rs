@@ -25,4 +25,10 @@ pub fn start() {
         Some(duration) => println!("Checked sub duration: {:?}", duration),
         None => println!("Cannot subtract {:?} from {:?}", end_01, start_01),
     }
+
+    // Instant example ----------------------------------------------------------------------------
+    let now = Instant::now();
+    std::thread::sleep(Duration::from_secs(2));
+    let elapsed = now.elapsed();
+    println!("Elapsed time: {:?}", elapsed);
 }
