@@ -45,7 +45,7 @@ fn main() {
     // my_generic::start();
 
     // Call the start function from the my_traits module
-    my_traits::start();
+    // my_traits::start();
     
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();
