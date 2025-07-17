@@ -30,4 +30,12 @@ pub fn start(){
     for number in chained_iter {
         println!("Chained element: {}", number);
     }
+
+    // create a tuple
+    let first_names = vec!["Alice", "Bob", "Charlie"];
+    let last_names = vec!["Smith", "Johnson", "Williams"];
+    // create an iterator that zips the first and last names
+    let full_names = first_names.iter().zip(last_names);
+    // print the full names using for each loop
+    full_names.for_each(|(first_name, last_name)| {println!("First: {} Last: {}", first_name, last_name);});
 }
