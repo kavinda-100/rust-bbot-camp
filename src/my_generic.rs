@@ -1,4 +1,4 @@
-pub fn start(){
+pub fn start() {
     // Generic structs in Rust
     #[derive(Debug)]
     struct Point<T> {

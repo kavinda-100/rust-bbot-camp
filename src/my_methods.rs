@@ -1,4 +1,4 @@
-pub fn start(){
+pub fn start() {
     // Define enum named `VehicleColor`
     #[derive(Debug)]
     enum VehicleColor {

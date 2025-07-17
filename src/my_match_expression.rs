@@ -1,4 +1,4 @@
-pub fn start(){
+pub fn start() {
     // Example of using match expressions in Rust
     let number = 5;
     // Using match to handle different values of a number

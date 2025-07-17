@@ -9,7 +9,10 @@ pub fn start() {
 
 pub fn control_flow_example() {
     let number = 5;
-    println!("Checking if {} is even or odd: with if else statement", number);
+    println!(
+        "Checking if {} is even or odd: with if else statement",
+        number
+    );
     if number % 2 == 0 {
         println!("{} is even", number);
     } else {

@@ -1,9 +1,9 @@
-pub fn start(){
+pub fn start() {
     // Define an enum to represent different types of vehicles
     #[derive(Debug)]
     enum Vehicle {
-        Car(String, u32), // Car with model and year
-        Truck(String, u32), // Truck with model and year
+        Car(String, u32),        // Car with model and year
+        Truck(String, u32),      // Truck with model and year
         Motorcycle(String, u32), // Motorcycle with model and year
     }
 
@@ -25,5 +25,4 @@ pub fn start(){
     display_vehicle_info(&my_car);
     display_vehicle_info(&my_truck);
     display_vehicle_info(&my_motorcycle);
-    
 }

@@ -1,22 +1,21 @@
-mod my_functions;
 mod control_flow;
-mod user_inputs;
 mod my_closures;
+mod my_functions;
+mod user_inputs;
 
-mod tasks;
-mod my_match_expression;
 mod my_enums;
-mod my_option;
-mod my_struct;
-mod my_methods;
 mod my_generic;
-mod my_traits;
-mod my_vec;
 mod my_hash_map;
 mod my_iterator;
+mod my_match_expression;
+mod my_methods;
+mod my_option;
+mod my_struct;
+mod my_traits;
+mod my_vec;
+mod tasks;
 
 fn main() {
-
     // Call the start function from the my_functions module
     // my_functions::start();
 

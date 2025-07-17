@@ -1,7 +1,7 @@
-pub fn start(){
+pub fn start() {
     let mut values = vec![5, 2, 9, 1, 5, 6];
     sort_values(&mut values);
-    
+
     println!("\n--- Alternative sorting with custom swap function ---");
     let mut values2 = vec![64, 34, 25, 12, 22, 11, 90];
     sort_values_with_custom_swap(&mut values2);

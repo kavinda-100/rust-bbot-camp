@@ -1,7 +1,6 @@
 use std::collections::HashMap;
 
-pub fn start(){
-    
+pub fn start() {
     let mut my_hash_map: HashMap<i32, String> = HashMap::new();
 
     // Inserting values into the HashMap

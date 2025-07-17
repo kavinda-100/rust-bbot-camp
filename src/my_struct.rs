@@ -1,4 +1,4 @@
-pub fn start(){
+pub fn start() {
     // Define a struct named `Person`
     #[derive(Debug)]
     struct Person {

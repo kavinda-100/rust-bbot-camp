@@ -1,13 +1,6 @@
-pub fn start(){
-
+pub fn start() {
     // Example of using Option with a closure
-    let divided = |x: i32, y: i32| -> Option<i32> {
-        if y == 0 {
-            None
-        } else {
-            Some(x / y)
-        }
-    };
+    let divided = |x: i32, y: i32| -> Option<i32> { if y == 0 { None } else { Some(x / y) } };
 
     // Using the closure with Some and None
     let result1 = divided(10, 2);

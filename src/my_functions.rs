@@ -1,11 +1,14 @@
-pub fn start(){
+pub fn start() {
     println!("Hello, world! from myFunctions.rs");
 
     let result = add(5, 3);
     println!("The result of adding 5 and 3 is: {}", result);
 
     let generic_result = generic_add(10, 20);
-    println!("The result of generic adding 10 and 20 is: {}", generic_result);
+    println!(
+        "The result of generic adding 10 and 20 is: {}",
+        generic_result
+    );
 
     print_name("John", "Doe");
 }

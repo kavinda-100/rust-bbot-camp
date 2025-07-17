@@ -1,4 +1,4 @@
-pub fn start(){
+pub fn start() {
     // Create a vector with initial values
     let mut my_vec: Vec<i32> = vec![1, 2, 3, 4, 5];
 
@@ -38,7 +38,7 @@ pub fn start(){
     retain_vec();
 }
 
-fn retain_vec(){
+fn retain_vec() {
     #[derive(Debug)]
     struct Car {
         name: String,
@@ -48,14 +48,13 @@ fn retain_vec(){
     let mut cars: Vec<Car> = Vec::new();
 
     for i in 1..20 {
-        if (i % 2 == 0){
+        if (i % 2 == 0) {
             let car = Car {
                 name: String::from("BMW"),
                 year: 2024,
             };
             cars.push(car);
-        }
-        else {
+        } else {
             let car = Car {
                 name: String::from("Toyota"),
                 year: 2020,
@@ -65,12 +64,12 @@ fn retain_vec(){
         }
     }
 
-    let keep = |x: &Car|  {
+    let keep = |x: &Car| {
         return if (x.name.contains("BMW")) {
             true
         } else {
             false
-        }
+        };
     };
 
     cars.retain(keep);
@@ -79,7 +78,6 @@ fn retain_vec(){
 }
 
 fn append_to_vector() {
-
     #[derive(Debug)]
     struct Car {
         name: String,
@@ -116,5 +114,4 @@ fn append_to_vector() {
     cars_one.append(&mut cars_two);
 
     println!("{:?}", cars_one);
-
 }

@@ -1,20 +1,21 @@
-pub fn start(){
-
+pub fn start() {
     trait Animal {
-        fn new(name: String) -> Self where Self: Sized;
+        fn new(name: String) -> Self
+        where
+            Self: Sized;
         fn name(&self) -> &String;
         fn sound(&self) -> String;
     }
     #[derive(Debug)]
-    struct Dog{
+    struct Dog {
         name: String,
     }
     #[derive(Debug)]
-    struct Cat{
+    struct Cat {
         name: String,
     }
 
-    impl Animal for Dog{
+    impl Animal for Dog {
         // Implementing the Animal trait for Dog
         fn new(name: String) -> Self {
             Dog { name }
@@ -51,7 +52,11 @@ pub fn start(){
         }
 
         fn introduce(&self) -> String {
-            format!("Hello, my name is {} and my pet says {}", self.name, self.pet.sound())
+            format!(
+                "Hello, my name is {} and my pet says {}",
+                self.name,
+                self.pet.sound()
+            )
         }
         fn pet_name(&self) -> String {
             format!("My pet's name is {}", self.pet.name())

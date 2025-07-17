@@ -1,4 +1,4 @@
-pub fn start(){
+pub fn start() {
     // Create a vector of integers
     let numbers = vec![1, 2, 3, 4, 5];
     let numbers2 = vec![6, 7, 8, 9, 10];
@@ -37,5 +37,7 @@ pub fn start(){
     // create an iterator that zips the first and last names
     let full_names = first_names.iter().zip(last_names);
     // print the full names using for each loop
-    full_names.for_each(|(first_name, last_name)| {println!("First: {} Last: {}", first_name, last_name);});
+    full_names.for_each(|(first_name, last_name)| {
+        println!("First: {} Last: {}", first_name, last_name);
+    });
 }

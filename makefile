@@ -1,5 +1,5 @@
 run:
-	RUSTFLAGS="-A warnings" cargo run
+	RUSTFLAGS="-A warnings" cargo run && cargo fmt
 
 # Run with warnings visible
 run-warnings:
