@@ -32,4 +32,48 @@ pub fn start(){
     // Clear the vector
     my_vec.clear();
     println!("After clear: {:?}", my_vec);
+
+    println!("== Append to the Vec ===");
+    append_to_vector();
+}
+
+fn append_to_vector() {
+
+    #[derive(Debug)]
+    struct Car {
+        name: String,
+        year: u32,
+    }
+
+    // Create a vector to hold Car objects
+    let mut cars_one: Vec<Car> = Vec::new();
+
+    for _ in 0..5 {
+        // Create a new Car object
+        let car = Car {
+            name: String::from("Toyota"),
+            year: 2020,
+        };
+
+        // Append the Car object to the vector
+        cars_one.push(car);
+    }
+    // Send the vector to another function
+    let mut cars_two: Vec<Car> = Vec::new();
+    for _ in 0..5 {
+        // Create a new Car object
+        let car = Car {
+            name: String::from("BMW"),
+            year: 2024,
+        };
+
+        // Append the Car object to the vector
+        cars_two.push(car);
+    }
+
+    // append the car_two the car_one
+    cars_one.append(&mut cars_two);
+
+    println!("{:?}", cars_one);
+
 }
