@@ -49,4 +49,6 @@ fn main() {
     
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();
+
+    println!("End of main function");
 }
