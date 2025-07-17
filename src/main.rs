@@ -14,6 +14,7 @@ mod my_struct;
 mod my_traits;
 mod my_vec;
 mod tasks;
+mod time_module;
 
 fn main() {
     // Call the start function from the my_functions module
@@ -56,7 +57,10 @@ fn main() {
     // my_hash_map::start();
 
     // Call the start function from the my_iterator module
-    my_iterator::start();
+    // my_iterator::start();
+
+    // Call the start function from the time_module module
+    time_module::my_time::start();
 
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();
