@@ -11,6 +11,7 @@ mod my_struct;
 mod my_methods;
 mod my_generic;
 mod my_traits;
+mod my_vec;
 
 fn main() {
 
@@ -46,6 +47,9 @@ fn main() {
 
     // Call the start function from the my_traits module
     // my_traits::start();
+
+    // Call the start function from the my_vec module
+    my_vec::start();
     
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();
