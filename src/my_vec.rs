@@ -1,6 +1,6 @@
 pub fn start(){
     // Create a vector with initial values
-    let mut my_vec = vec![1, 2, 3, 4, 5];
+    let mut my_vec: Vec<i32> = vec![1, 2, 3, 4, 5];
 
     // Print the original vector
     println!("Original vector: {:?}", my_vec);
@@ -23,6 +23,10 @@ pub fn start(){
     // Iterate over the elements in the vector
     for (index, value) in my_vec.iter().enumerate() {
         println!("Element at index {}: {}", index, value);
+    }
+
+    for value in my_vec.iter() {
+        println!("Value: {}", value + 1);
     }
 
     // Clear the vector
