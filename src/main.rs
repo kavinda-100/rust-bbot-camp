@@ -13,6 +13,7 @@ mod my_generic;
 mod my_traits;
 mod my_vec;
 mod my_hash_map;
+mod my_iterator;
 
 fn main() {
 
@@ -53,8 +54,11 @@ fn main() {
     // my_vec::start();
 
     // Call the start function from the my_hash_map
-    my_hash_map::start();
-    
+    // my_hash_map::start();
+
+    // Call the start function from the my_iterator module
+    my_iterator::start();
+
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();
 
