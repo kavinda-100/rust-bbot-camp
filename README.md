@@ -102,7 +102,7 @@ rust-bbot-camp/
 
 ## 📖 Learning Objectives
 
-For a comparison of Rust's trait-based polymorphism with OOP in C#, see the [TRAITSANDOOP.md](./TRAITSANDOOP.md) file.
+### ➡️ For a comparison of Rust's trait-based polymorphism with OOP in C#, see the [TRAITSANDOOP.md](./TRAITSANDOOP.md) file.
 
 By working with this project, you'll learn:
 
