@@ -44,16 +44,42 @@ cargo build --release
 
 ```
 rust-boot-camp/
-├── .gitignore          # Git ignore patterns
-├── Cargo.toml          # Project configuration and dependencies
-├── Cargo.lock          # Dependency lock file
-├── README.md           # This file
-├── src/
-│   ├── main.rs         # Main entry point
-│   ├── my_functions.rs # Custom functions module
-│   ├── control_flow.rs # Control flow examples (if/else, loops)
-│   └── user_inputs.rs  # User input handling examples
-└── target/             # Compiled artifacts (auto-generated)
+├── .gitignore              # Git ignore patterns
+├── Cargo.toml              # Project configuration and dependencies
+├── Cargo.lock              # Dependency lock file
+├── README.md               # This file
+├── makefile                # Makefile for custom build commands
+├── src/                    # Source code directory
+│   ├── main.rs             # Main entry point
+│   ├── my_functions.rs     # Custom functions module
+│   ├── control_flow.rs     # Control flow examples (if/else, loops)
+│   ├── user_inputs.rs      # User input handling examples
+│   ├── my_args.rs          # Command-line argument parsing
+│   ├── my_closures.rs      # Closures and functional programming
+│   ├── my_enums.rs         # Enum definitions and pattern matching
+│   ├── my_generic.rs       # Generic programming examples
+│   ├── my_hash_map.rs      # HashMap collection usage
+│   ├── my_iterator.rs      # Iterator trait and usage
+│   ├── my_match_expression.rs # Match expressions
+│   ├── my_methods.rs       # Struct methods and impl blocks
+│   ├── my_option.rs        # Option<T> usage and error handling
+│   ├── my_struct.rs        # Struct definitions and implementations
+│   ├── my_traits.rs        # Trait definitions and usage
+│   ├── my_vec.rs           # Vec collection usage
+│   ├── file_system/        # File I/O and filesystem operations
+│   │   ├── mod.rs
+│   │   ├── my_file_system.rs
+│   │   └── data/           # Sample data files
+│   │       ├── temp_file.json
+│   │       └── temp_file.txt
+│   ├── tasks/              # Task modules
+│   │   ├── mod.rs
+│   │   └── sort_values.rs
+│   └── time_module/        # Time and date handling
+│       ├── mod.rs
+│       ├── my_chrono.rs
+│       └── my_time.rs
+└── target/                 # Compiled artifacts (auto-generated)
 ```
 
 ### Key Rust Concepts Demonstrated
