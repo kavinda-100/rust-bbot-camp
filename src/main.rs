@@ -13,12 +13,12 @@ mod my_iterator;
 mod my_match_expression;
 mod my_methods;
 mod my_option;
+mod my_serde;
 mod my_struct;
 mod my_traits;
 mod my_vec;
 mod tasks;
 mod time_module;
-mod my_serde;
 
 fn main() {
     // Call the start function from the my_functions module
