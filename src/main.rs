@@ -1,13 +1,13 @@
-mod control_flow;
-mod my_closures;
-mod my_functions;
-mod user_inputs;
 mod clap;
+mod control_flow;
 mod file_system;
 mod my_args;
+mod my_closures;
 mod my_enums;
+mod my_functions;
 mod my_generic;
 mod my_hash_map;
+mod my_http;
 mod my_iterator;
 mod my_match_expression;
 mod my_methods;
@@ -18,7 +18,7 @@ mod my_traits;
 mod my_vec;
 mod tasks;
 mod time_module;
-mod my_http;
+mod user_inputs;
 
 fn main() {
     // Call the start function from the my_functions module
