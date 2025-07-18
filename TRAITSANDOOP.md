@@ -1,6 +1,6 @@
 # Traits and OOP: Rust vs C#
 
-This document compares Rust's approach to polymorphism and code reuse (using traits, structs, and impl blocks) with traditional Object-Oriented Programming (OOP) in C# (using classes and interfaces). The examples are based on the `my_traits.rs` file in this project.
+This document compares Rust's approach to polymorphism and code reuse (using traits, structs, and impl blocks) with traditional Object-Oriented Programming (OOP) in C# (using classes and interfaces). The examples are based on the [src/my_traits.rs](./src/my_traits.rs) file in this project.
 
 ---
 
