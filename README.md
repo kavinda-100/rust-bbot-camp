@@ -80,26 +80,14 @@ By working with this project, you'll learn:
 
 Consider extending this project by adding:
 
-- [ ] Error handling with `Result<T, E>` and `Option<T>`
-- [ ] Struct definitions and implementations
-- [ ] Enums and pattern matching
-- [ ] Collections (Vec, HashMap, etc.)
-- [ ] File I/O operations
-- [ ] Unit tests
-- [ ] External crate dependencies
+- [x] Error handling with `Result<T, E>` and `Option<T>`
+- [x] Struct definitions and implementations
+- [x] Enums and pattern matching
+- [x] Collections (Vec, HashMap, etc.)
+- [x] File I/O operations
+- [x] External crate dependencies
+- [x] More advanced generic programming
 - [ ] Command-line argument parsing
-- [ ] More advanced generic programming
-
-## 📝 Example Output
-
-When you run the project, you should see:
-
-```
-Hello, world! from myFunctions.rs
-The result of adding 5 and 3 is: 8
-The result of generic adding 10 and 20 is: 30
-First Name: John, Last Name: Doe
-```
 
 ## 🛠️ Development Commands
 
