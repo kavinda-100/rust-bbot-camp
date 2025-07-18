@@ -2,7 +2,6 @@ mod control_flow;
 mod my_closures;
 mod my_functions;
 mod user_inputs;
-
 mod clap;
 mod file_system;
 mod my_args;
@@ -19,6 +18,7 @@ mod my_traits;
 mod my_vec;
 mod tasks;
 mod time_module;
+mod my_http;
 
 fn main() {
     // Call the start function from the my_functions module
@@ -77,7 +77,10 @@ fn main() {
     // clap::my_cli::start();
 
     // Call the start function from the my_serde module
-    my_serde::start();
+    // my_serde::start();
+
+    // Call the start function from the my_http module
+    my_http::start();
 
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();
