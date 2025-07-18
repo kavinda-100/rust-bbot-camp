@@ -102,6 +102,8 @@ rust-bbot-camp/
 
 ## 📖 Learning Objectives
 
+For a comparison of Rust's trait-based polymorphism with OOP in C#, see the [TRAITSANDOOP.md](./TRAITSANDOOP.md) file.
+
 By working with this project, you'll learn:
 
 1. **Rust Project Structure**: How to organize a Rust project with modules and submodules
@@ -142,7 +144,6 @@ This project is for learning purposes. Feel free to use, modify.
 
 ## 🧒 Author
 
-- Kavinda Ratnayake
+- Kavinda Rathnayake
 
 ### Happy Coding with **_Rust_**! 🦀 🎉
-
