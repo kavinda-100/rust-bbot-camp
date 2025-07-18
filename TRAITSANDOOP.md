@@ -128,5 +128,5 @@ public class Person<T> where T : IAnimal {
 
 ---
 
-**See `src/my_traits.rs` for the full Rust example.**
+**See [src/my_traits.rs](./src/my_traits.rs) for the full Rust example.**
 
