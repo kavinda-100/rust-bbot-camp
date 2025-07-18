@@ -18,6 +18,7 @@ mod my_traits;
 mod my_vec;
 mod tasks;
 mod time_module;
+mod my_serde;
 
 fn main() {
     // Call the start function from the my_functions module
@@ -73,7 +74,10 @@ fn main() {
     // my_args::start();
 
     // Call the start function from the clap module
-    clap::my_cli::start();
+    // clap::my_cli::start();
+
+    // Call the start function from the my_serde module
+    my_serde::start();
 
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();
