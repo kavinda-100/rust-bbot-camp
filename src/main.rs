@@ -4,6 +4,7 @@ mod my_functions;
 mod user_inputs;
 
 mod file_system;
+mod my_args;
 mod my_enums;
 mod my_generic;
 mod my_hash_map;
@@ -65,7 +66,10 @@ fn main() {
     // time_module::my_chrono::start();
 
     // Call the start function from the file_system module
-    file_system::my_file_system::start();
+    // file_system::my_file_system::start();
+
+    // Call the start function from the my_args module
+    my_args::start();
 
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();
