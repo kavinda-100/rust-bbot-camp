@@ -48,44 +48,47 @@ rust-bbot-camp/
 ├── Cargo.toml              # Project configuration and dependencies
 ├── Cargo.lock              # Dependency lock file
 ├── README.md               # Project documentation
+├── TRAITSANDOOP.md         # Rust vs C# traits and OOP comparison
 ├── makefile                # Makefile for custom build commands
 ├── src/                    # Source code directory
-│   ├── main.rs             # Main entry point
-│   ├── my_functions.rs     # Custom functions module
-│   ├── control_flow.rs     # Control flow examples (if/else, loops)
-│   ├── user_inputs.rs      # User input handling examples
-│   ├── my_args.rs          # Command-line argument parsing
-│   ├── my_closures.rs      # Closures and functional programming
-│   ├── my_enums.rs         # Enum definitions and pattern matching
-│   ├── my_generic.rs       # Generic programming examples
-│   ├── my_hash_map.rs      # HashMap collection usage
-│   ├── my_iterator.rs      # Iterator trait and usage
-│   ├── my_match_expression.rs # Match expressions
-│   ├── my_methods.rs       # Struct methods and impl blocks
-│   ├── my_option.rs        # Option<T> usage and error handling
-│   ├── my_struct.rs        # Struct definitions and implementations
-│   ├── my_traits.rs        # Trait definitions and usage
-│   ├── my_vec.rs           # Vec collection usage
-│   ├── clap/               # Command-line argument parsing with clap
+│   ├── main.rs                 # Main entry point
+│   ├── my_functions.rs         # Custom functions module
+│   ├── control_flow.rs         # Control flow examples (if/else, loops)
+│   ├── user_inputs.rs          # User input handling examples
+│   ├── my_args.rs              # Command-line argument parsing
+│   ├── my_closures.rs          # Closures and functional programming
+│   ├── my_enums.rs             # Enum definitions and pattern matching
+│   ├── my_generic.rs           # Generic programming examples
+│   ├── my_hash_map.rs          # HashMap collection usage
+│   ├── my_http.rs              # HTTP requests and networking
+│   ├── my_iterator.rs          # Iterator trait and usage
+│   ├── my_match_expression.rs  # Match expressions
+│   ├── my_methods.rs           # Struct methods and impl blocks
+│   ├── my_option.rs            # Option<T> usage and error handling
+│   ├── my_serde.rs             # Serialization/deserialization with serde
+│   ├── my_struct.rs            # Struct definitions and implementations
+│   ├── my_traits.rs            # Trait definitions and usage
+│   ├── my_vec.rs               # Vec collection usage
+│   ├── clap/                   # Command-line argument parsing with clap
 │   │   ├── mod.rs
 │   │   └── my_cli.rs
-│   ├── file_system/        # File I/O and filesystem operations
+│   ├── file_system/            # File I/O and filesystem operations
 │   │   ├── mod.rs
 │   │   ├── my_file_system.rs
-│   │   └── data/           # Sample data files
+│   │   └── data/               # Sample data files
 │   │       ├── temp_file.json
 │   │       └── temp_file.txt
-│   ├── tasks/              # Task modules
+│   ├── tasks/                  # Task modules
 │   │   ├── mod.rs
 │   │   └── sort_values.rs
-│   └── time_module/        # Time and date handling
+│   └── time_module/            # Time and date handling
 │       ├── mod.rs
 │       ├── my_chrono.rs
 │       └── my_time.rs
 └── target/                 # Compiled artifacts (auto-generated)
 ```
 
-### Key Rust Concepts Demonstrated
+## 🦀 Key Rust Concepts Demonstrated
 
 - **Modules & Submodules**: Organizing code into files and folders, including nested modules (e.g., file_system, tasks, time_module, clap)
 - **Functions & Methods**: Defining and using functions, methods, and associated functions
@@ -99,10 +102,12 @@ rust-bbot-camp/
 - **File I/O**: Reading and writing files, handling filesystem data
 - **Time & Date**: Using chrono and std::time for date/time operations
 - **Ownership & Borrowing**: Safe memory management without garbage collection
+- **Serialization/Deserialization**: Using serde for working with JSON and other formats
+- **HTTP Requests**: Making HTTP requests and handling responses
 
 ## 📖 Learning Objectives
 
-### ➡️ For a comparison of Rust's trait-based polymorphism with OOP in C#, see the [TRAITSANDOOP.md](./TRAITSANDOOP.md) file.
+➡️ For a comparison of Rust's trait-based polymorphism with OOP in C#, see the [TRAITSANDOOP.md](./TRAITSANDOOP.md) file.
 
 By working with this project, you'll learn:
 
@@ -117,7 +122,9 @@ By working with this project, you'll learn:
 9. **Command-line Parsing**: Handling arguments with std and clap
 10. **File I/O**: Reading and writing files
 11. **Time & Date Handling**: Working with chrono and std::time
-12. **Cargo Tool**: Building, running, and managing Rust projects
+12. **Serialization/Deserialization**: Working with serde for JSON and other formats
+13. **HTTP Networking**: Making HTTP requests and processing responses
+14. **Cargo Tool**: Building, running, and managing Rust projects
 
 ## 🎯 Next Steps for Learning
 
@@ -128,15 +135,18 @@ Consider extending this project by adding:
 - [x] Enums and pattern matching
 - [x] Collections (Vec, HashMap, etc.)
 - [x] File I/O operations
-- [x] External crate dependencies (e.g., chrono, clap)
+- [x] External crate dependencies (e.g., chrono, clap, serde)
 - [x] More advanced generic programming
 - [x] Command-line argument parsing (with std and clap)
 - [x] Time and date handling
+- [x] Serialization/deserialization (serde, JSON)
+- [x] HTTP requests and networking
 - [ ] Unit and integration tests
 - [ ] Asynchronous programming (async/await)
 - [ ] Error propagation and custom error types
 - [ ] More advanced trait usage and lifetimes
-
+- [ ] Benchmarking and performance profiling
+- [ ] Documentation with rustdoc
 
 ## 📄 License
 
