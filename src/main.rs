@@ -3,6 +3,7 @@ mod my_closures;
 mod my_functions;
 mod user_inputs;
 
+mod clap;
 mod file_system;
 mod my_args;
 mod my_enums;
@@ -69,7 +70,10 @@ fn main() {
     // file_system::my_file_system::start();
 
     // Call the start function from the my_args module
-    my_args::start();
+    // my_args::start();
+
+    // Call the start function from the clap module
+    clap::my_cli::start();
 
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();

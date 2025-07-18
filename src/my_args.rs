@@ -24,7 +24,9 @@ pub fn start() {
 
     // Check if the arguments are provided
     match dog_name_res {
-        Some(name) => { dog_name = name; }
+        Some(name) => {
+            dog_name = name;
+        }
         None => {
             eprintln!("Please provide a dog name.");
             return;
