@@ -43,11 +43,11 @@ cargo build --release
 ## 📁 Project Structure
 
 ```
-rust-boot-camp/
+rust-bbot-camp/
 ├── .gitignore              # Git ignore patterns
 ├── Cargo.toml              # Project configuration and dependencies
 ├── Cargo.lock              # Dependency lock file
-├── README.md               # This file
+├── README.md               # Project documentation
 ├── makefile                # Makefile for custom build commands
 ├── src/                    # Source code directory
 │   ├── main.rs             # Main entry point
@@ -66,6 +66,9 @@ rust-boot-camp/
 │   ├── my_struct.rs        # Struct definitions and implementations
 │   ├── my_traits.rs        # Trait definitions and usage
 │   ├── my_vec.rs           # Vec collection usage
+│   ├── clap/               # Command-line argument parsing with clap
+│   │   ├── mod.rs
+│   │   └── my_cli.rs
 │   ├── file_system/        # File I/O and filesystem operations
 │   │   ├── mod.rs
 │   │   ├── my_file_system.rs
@@ -84,23 +87,35 @@ rust-boot-camp/
 
 ### Key Rust Concepts Demonstrated
 
-- **Modules**: Organization of code into separate files
-- **Public Functions**: Using `pub` keyword for external access
+- **Modules & Submodules**: Organizing code into files and folders, including nested modules (e.g., file_system, tasks, time_module, clap)
+- **Functions & Methods**: Defining and using functions, methods, and associated functions
 - **Generics**: Type-safe generic programming with `<T>`
-- **Traits**: Using trait bounds (`std::ops::Add<Output = T>`)
-- **String Slices**: Working with `&str` references
-- **Ownership**: Safe memory management without garbage collection
+- **Traits**: Defining and implementing traits, using trait bounds
+- **Enums & Pattern Matching**: Using enums and match expressions
+- **Collections**: Working with Vec, HashMap, and iterators
+- **Closures**: Functional programming with closures
+- **Option & Result**: Error handling and optional values
+- **Command-line Arguments**: Parsing with std and the clap crate
+- **File I/O**: Reading and writing files, handling filesystem data
+- **Time & Date**: Using chrono and std::time for date/time operations
+- **Ownership & Borrowing**: Safe memory management without garbage collection
 
 ## 📖 Learning Objectives
 
 By working with this project, you'll learn:
 
-1. **Rust Project Structure**: How to organize a Rust project
-2. **Module System**: How to split code across multiple files
-3. **Function Definitions**: Creating reusable code blocks
+1. **Rust Project Structure**: How to organize a Rust project with modules and submodules
+2. **Module System**: How to split code across multiple files and folders
+3. **Function & Method Definitions**: Creating reusable code blocks and struct methods
 4. **Generic Programming**: Writing type-safe, reusable code
-5. **String Handling**: Working with Rust's string types
-6. **Cargo Tool**: Building, running, and managing Rust projects
+5. **Trait Implementation**: Defining and using traits for polymorphism
+6. **Enum & Pattern Matching**: Handling multiple data types and control flow
+7. **Collections & Iterators**: Using Vec, HashMap, and iterators
+8. **Error Handling**: Using Option and Result types
+9. **Command-line Parsing**: Handling arguments with std and clap
+10. **File I/O**: Reading and writing files
+11. **Time & Date Handling**: Working with chrono and std::time
+12. **Cargo Tool**: Building, running, and managing Rust projects
 
 ## 🎯 Next Steps for Learning
 
@@ -111,37 +126,23 @@ Consider extending this project by adding:
 - [x] Enums and pattern matching
 - [x] Collections (Vec, HashMap, etc.)
 - [x] File I/O operations
-- [x] External crate dependencies
+- [x] External crate dependencies (e.g., chrono, clap)
 - [x] More advanced generic programming
-- [ ] Command-line argument parsing
+- [x] Command-line argument parsing (with std and clap)
+- [x] Time and date handling
+- [ ] Unit and integration tests
+- [ ] Asynchronous programming (async/await)
+- [ ] Error propagation and custom error types
+- [ ] More advanced trait usage and lifetimes
 
-## 🛠️ Development Commands
-
-```bash
-# Format code according to Rust standards
-cargo fmt
-
-# Run the linter for code quality
-cargo clippy
-
-# Run tests (when implemented)
-cargo test
-
-# Generate documentation
-cargo doc --open
-```
-
-## 📚 Resources for Further Learning
-
-- [The Rust Programming Language Book](https://doc.rust-lang.org/book/)
-- [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
-- [Rustlings - Interactive Exercises](https://github.com/rust-lang/rustlings)
-- [Rust Standard Library Documentation](https://doc.rust-lang.org/std/)
 
 ## 📄 License
 
-This project is for educational purposes. Feel free to use and modify as needed for your learning journey.
+This project is for learning purposes. Feel free to use, modify.
 
----
+## 🧒 Author
 
-**Happy Coding with Rust! 🦀**
+- Kavinda Ratnayake
+
+### Happy Coding with **_Rust_**! 🦀 🎉
+
