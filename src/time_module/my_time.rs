@@ -1,3 +1,4 @@
+/// This module demonstrates how to work with time in Rust using the `std::time` module.
 use std::ops::Sub;
 use std::time::{Duration, Instant, SystemTime, UNIX_EPOCH};
 

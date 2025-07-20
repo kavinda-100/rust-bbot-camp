@@ -1,3 +1,4 @@
+/// This module demonstrates the use of structs in Rust.
 pub fn start() {
     // Define a struct named `Person`
     #[derive(Debug)]

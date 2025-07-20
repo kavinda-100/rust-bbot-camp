@@ -1,3 +1,4 @@
+/// This module demonstrates the use of the `chrono` crate for date and time handling in Rust.
 extern crate chrono;
 
 pub fn start() {

@@ -1,3 +1,5 @@
+/// This module demonstrates operator overloading in Rust using the `Add`, `Sub`, `Mul`, and `Div` traits.
+
 use std::ops::{Add, Div, Mul, Sub};
 
 pub fn start() {

@@ -1,3 +1,4 @@
+/// This module demonstrates the use of traits in Rust, including trait bounds and generic types.
 pub fn start() {
     trait Animal {
         fn new(name: String) -> Self

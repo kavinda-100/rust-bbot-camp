@@ -1,3 +1,4 @@
+/// This module handles user input for age verification.
 pub fn start() {
     let age_to_check: u16 = 18;
 

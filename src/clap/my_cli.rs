@@ -1,3 +1,4 @@
+/// A simple CLI application using clap
 use clap::{Arg, command};
 
 pub fn start() {

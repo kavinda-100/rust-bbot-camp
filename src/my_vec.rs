@@ -1,3 +1,4 @@
+/// This module demonstrates the use of vectors in Rust, including adding, removing, and iterating over elements.
 pub fn start() {
     // Create a vector with initial values
     let mut my_vec: Vec<i32> = vec![1, 2, 3, 4, 5];

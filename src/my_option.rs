@@ -1,3 +1,5 @@
+/// This module demonstrates the use of Option in Rust with closures and pattern matching.
+
 pub fn start() {
     // Example of using Option with a closure
     let divided = |x: i32, y: i32| -> Option<i32> { if y == 0 { None } else { Some(x / y) } };

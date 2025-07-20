@@ -1,3 +1,4 @@
+/// This module provides basic file system operations such as creating directories, files, reading files, and removing files.
 use std::fs;
 
 pub fn start() {
