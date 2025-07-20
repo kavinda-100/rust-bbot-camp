@@ -1,3 +1,25 @@
+/// Methods and structs example in Rust
+/// This module demonstrates how to define structs and implement methods for them in Rust.
+/// It shows how to create, display, and modify struct instances using methods.
+/// 
+/// # Example
+/// ```sh
+/// cargo run --bin rust-bbot-camp
+/// ```
+/// Output:
+/// ```
+/// ===== Create an instance of Vehicle =====
+/// ===== Display vehicle information =====
+/// Vehicle Information:
+/// Manufacture: BMW
+/// Model: M5 CS
+/// Year: 2024
+/// Color: Blue
+/// ===== Change the color of the vehicle =====
+/// Color changed to: Red
+/// ```
+
+
 pub fn start() {
     // Define enum named `VehicleColor`
     #[derive(Debug)]

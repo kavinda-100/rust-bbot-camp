@@ -1,3 +1,19 @@
+/// Closures example in Rust
+/// This module demonstrates how to use closures (anonymous functions) in Rust, including
+/// simple closures, closures with Option and Result, and using closures with iterator methods.
+/// 
+/// # Example
+/// ```sh
+/// cargo run --bin rust-bbot-camp
+/// ```
+/// Output:
+/// ```
+/// Result: 6
+/// Original: [1, 2, 3, 4, 5]
+/// Doubled: [2, 4, 6, 8, 10]
+/// ...
+/// ```
+
 pub fn start() {
     let closure = |x| x + 1;
     let result = closure(5);

@@ -1,3 +1,22 @@
+/// Match expressions example in Rust
+/// This module demonstrates how to use match expressions in Rust, including matching on numbers,
+/// tuples, and enums to control program flow.
+///
+/// # Example
+/// ```sh
+/// cargo run --bin rust-bbot-camp
+/// ```
+/// Output:
+/// ```
+/// --- Match Expression Example with numbers---
+/// Five
+/// --- Match Expression Example with tuples ---
+/// Origin
+/// --- Match Expression Example with enums ---
+/// Moving Up
+/// ```
+
+
 pub fn start() {
     // Example of using match expressions in Rust
     let number = 5;

@@ -1,3 +1,18 @@
+/// Enums example in Rust
+/// This module demonstrates how to define and use enums in Rust, including pattern matching
+/// and storing different data in each variant.
+/// 
+/// # Example
+/// ```sh
+/// cargo run --bin rust-bbot-camp
+/// ```
+/// Output:
+/// ```
+/// Car: Toyota Corolla (2020)
+/// Truck: Ford F-150 (2018)
+/// Motorcycle: Harley-Davidson (2021)
+/// ```
+
 pub fn start() {
     // Define an enum to represent different types of vehicles
     #[derive(Debug)]

@@ -1,3 +1,19 @@
+/// HTTP requests example in Rust
+/// This module demonstrates how to make HTTP GET and POST requests using the reqwest crate.
+/// It shows how to send requests, handle responses, and serialize/deserialize JSON data.
+/// 
+/// # Example
+/// ```sh
+/// cargo run --bin rust-bbot-camp
+/// ```
+/// Output:
+/// ```
+/// Response Status: 200 OK
+/// Response Body: { ... }
+/// Serialization failed: ...
+/// ...
+/// ```
+
 use reqwest::blocking::Client;
 use serde::{Deserialize, Serialize};
 use serde_json::to_string;

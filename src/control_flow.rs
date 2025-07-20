@@ -1,3 +1,7 @@
+/// Control flow example in Rust
+/// This module demonstrates basic control flow constructs in Rust, including
+/// if-else statements, loops, and match expressions.
+
 pub fn start() {
     println!("Starting control flow example...");
     control_flow_example();

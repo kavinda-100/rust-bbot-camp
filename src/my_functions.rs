@@ -1,3 +1,19 @@
+/// Functions example in Rust
+/// This module demonstrates how to define and use functions in Rust, including
+/// regular functions, generic functions, and functions with multiple parameters.
+/// 
+/// # Example
+/// ```sh
+/// cargo run --bin rust-bbot-camp
+/// ```
+/// Output:
+/// ```
+/// The result of adding 5 and 3 is: 8
+/// The result of generic adding 10 and 20 is: 30
+/// First Name: John, Last Name: Doe
+/// ```
+
+
 pub fn start() {
     println!("Hello, world! from myFunctions.rs");
 
