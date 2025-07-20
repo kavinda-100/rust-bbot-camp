@@ -1,3 +1,27 @@
+//! # This is Rust Bootcamp, a collection of Rust code examples and exercises.
+//! This project is designed to help you learn Rust by providing practical examples and tasks.
+//! Each module contains a specific topic or task, and you can run them individually to see how they work.
+//!
+//! ### Features:
+//!
+//! - [x] Error handling with `Result<T, E>` and `Option<T>`
+//! - [x] Struct definitions and implementations
+//! - [x] Enums and pattern matching
+//! - [x] Collections (Vec, HashMap, etc.)
+//! - [x] File I/O operations
+//! - [x] External crate dependencies (e.g., chrono, clap, serde)
+//! - [x] More advanced generic programming
+//! - [x] Command-line argument parsing (with std and clap)
+//! - [x] Time and date handling
+//! - [x] Serialization/deserialization (serde, JSON)
+//! - [x] HTTP requests and networking
+//! - [ ] Unit and integration tests
+//! - [ ] Asynchronous programming (async/await)
+//! - [ ] Error propagation and custom error types
+//! - [ ] More advanced trait usage and lifetimes
+//! - [ ] Benchmarking and performance profiling
+//! - [ ] Documentation with rustdoc
+
 mod clap;
 mod control_flow;
 mod file_system;
