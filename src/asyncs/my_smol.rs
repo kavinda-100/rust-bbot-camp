@@ -1,12 +1,23 @@
 pub fn start() {
     // Call the async function
+    println!("=== single output ===");
     let result = get_number();
     let number = smol::block_on(result);
     println!("The number is: {}", number);
 
+    println!("=== multiple outputs ===");
+    let num_res = smol::block_on(async {
+        let res1 = get_number().await;
+        let res2 = get_number().await;
+        let res3 = get_number().await;
+        return (res1, res2, res3);
+    });
+    println!("The number is: {:?}", num_res);
+
     println!(" ");
 
     // Make a coffee
+    println!("=== Making Coffee ===");
     smol::block_on(async {
         boil_water().await;
         add_sugar().await;
