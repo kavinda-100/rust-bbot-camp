@@ -1,7 +1,7 @@
 /// HashMap example in Rust
 /// This module demonstrates how to use the HashMap collection in Rust, including
 /// inserting, retrieving, removing, and iterating over key-value pairs.
-/// 
+///
 /// # Example
 /// ```sh
 /// cargo run --bin rust-bbot-camp
@@ -14,8 +14,6 @@
 /// Key: 3, Value: Three
 /// HashMap length is: 3
 /// ```
-
-
 use std::collections::HashMap;
 
 pub fn start() {

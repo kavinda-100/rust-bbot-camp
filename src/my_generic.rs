@@ -2,7 +2,7 @@
 /// This module demonstrates how to define and use generic structs and methods in Rust.
 /// It shows how to create a struct that can store values of any type and how to implement
 /// methods for generic types.
-/// 
+///
 /// # Example
 /// ```sh
 /// cargo run --bin rust-bbot-camp
@@ -13,7 +13,6 @@
 /// Point(3.5, 7.2)
 /// Point(x, y)
 /// ```
-
 
 pub fn start() {
     // Generic structs in Rust

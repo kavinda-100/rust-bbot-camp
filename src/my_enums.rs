@@ -1,7 +1,7 @@
 /// Enums example in Rust
 /// This module demonstrates how to define and use enums in Rust, including pattern matching
 /// and storing different data in each variant.
-/// 
+///
 /// # Example
 /// ```sh
 /// cargo run --bin rust-bbot-camp

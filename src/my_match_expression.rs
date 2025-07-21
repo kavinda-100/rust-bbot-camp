@@ -16,7 +16,6 @@
 /// Moving Up
 /// ```
 
-
 pub fn start() {
     // Example of using match expressions in Rust
     let number = 5;

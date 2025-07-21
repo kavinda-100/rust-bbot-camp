@@ -1,5 +1,4 @@
 /// This module demonstrates how to use Serde for serialization and deserialization of Rust structs to and from JSON format.
-
 use serde::{Deserialize, Serialize};
 use serde_json::{from_str, to_string, to_string_pretty};
 

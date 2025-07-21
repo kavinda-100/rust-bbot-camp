@@ -1,7 +1,7 @@
 /// Command-line arguments example in Rust
 /// This module demonstrates how to parse command-line arguments using std::env::args.
 /// It expects a dog name and age as arguments, constructs a Dog struct, and prints its info.
-/// 
+///
 /// # Example
 /// ```sh
 /// cargo run -- blacky 5
@@ -11,7 +11,6 @@
 /// Dog Name: blacky, Age: 5
 /// ...
 /// ```
-
 use std::env::{Args, args};
 
 struct Dog {

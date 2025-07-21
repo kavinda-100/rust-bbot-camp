@@ -1,7 +1,7 @@
 /// Iterators example in Rust
 /// This module demonstrates how to use iterators in Rust, including creating iterators,
 /// using iterator methods like map, chain, zip, and fold, and collecting results.
-/// 
+///
 /// # Example
 /// ```sh
 /// cargo run --bin rust-bbot-camp
@@ -15,7 +15,6 @@
 /// ...
 /// Sum of numbers: 15
 /// ```
-
 
 pub fn start() {
     // Create a vector of integers

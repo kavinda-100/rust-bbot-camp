@@ -1,7 +1,7 @@
 /// Closures example in Rust
 /// This module demonstrates how to use closures (anonymous functions) in Rust, including
 /// simple closures, closures with Option and Result, and using closures with iterator methods.
-/// 
+///
 /// # Example
 /// ```sh
 /// cargo run --bin rust-bbot-camp

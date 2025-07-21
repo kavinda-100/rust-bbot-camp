@@ -1,7 +1,7 @@
 /// Methods and structs example in Rust
 /// This module demonstrates how to define structs and implement methods for them in Rust.
 /// It shows how to create, display, and modify struct instances using methods.
-/// 
+///
 /// # Example
 /// ```sh
 /// cargo run --bin rust-bbot-camp
@@ -18,7 +18,6 @@
 /// ===== Change the color of the vehicle =====
 /// Color changed to: Red
 /// ```
-
 
 pub fn start() {
     // Define enum named `VehicleColor`
