@@ -130,5 +130,5 @@ mod user_inputs;
 #[tokio::main]
 async fn main() {
     // Call the start function from the my_tokio module
-    asyncs::my_tokio::start();
+    asyncs::my_tokio::start().await;
 }
