@@ -121,7 +121,14 @@ mod user_inputs;
 // ================================ with async ================================
 
 // ===== with Smol =====
-fn main() {
-    // Call the start function from the my_smol module
-    asyncs::my_smol::start();
+// fn main() {
+//     // Call the start function from the my_smol module
+//     asyncs::my_smol::start();
+// }
+
+// ===== with Tokio =====
+#[tokio::main]
+async fn main() {
+    // Call the start function from the my_tokio module
+    asyncs::my_tokio::start();
 }
