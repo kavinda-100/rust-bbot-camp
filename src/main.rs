@@ -27,6 +27,7 @@ use external_process::my_external_proccess;
 mod asyncs;
 mod clap;
 mod control_flow;
+mod csv;
 mod external_process;
 mod file_system;
 mod my_args;
@@ -116,7 +117,10 @@ fn main() {
     // my_option_overload::start();
 
     // Call the start function from the external_process module
-    external_process::my_external_proccess::start();
+    // external_process::my_external_proccess::start();
+
+    // Call the start function from the csv module
+    csv::my_csv::start();
 
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();
