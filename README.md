@@ -88,6 +88,10 @@ rust-bbot-camp/
 │   ├── tasks/                  # Task modules
 │   │   ├── mod.rs
 │   │   └── sort_values.rs
+│   ├── csv/                     # CSV handling module
+│   │   ├── mod.rs
+│   │   ├── my_csv.rs
+│   │   └── vehicle.csv
 │   └── time_module/            # Time and date handling
 │       ├── mod.rs
 │       ├── my_chrono.rs
@@ -113,6 +117,7 @@ rust-bbot-camp/
 - **HTTP Requests**: Making HTTP requests and handling responses (see my_http.rs)
 - **Async Programming**: Using async/await with Smol and Tokio (see asyncs/)
 - **External Processes**: Running and managing external processes (see external_process/)
+- **CSV Handling**: Reading and writing CSV files (see csv/)
 
 ## 📖 Learning Objectives
 
@@ -135,7 +140,8 @@ By working with this project, you'll learn:
 13. **HTTP Networking**: Making HTTP requests and processing responses (see my_http.rs)
 14. **Async Programming**: Using async/await with Smol and Tokio (see asyncs/)
 15. **External Processes**: Running and managing external processes (see external_process/)
-16. **Cargo Tool**: Building, running, and managing Rust projects
+16. **CSV Handling**: Reading and writing CSV files (see csv/)
+17. **Cargo Tool**: Building, running, and managing Rust projects
 
 ## 🎯 Next Steps for Learning
 
@@ -154,6 +160,7 @@ Consider extending this project by adding:
 - [x] HTTP requests and networking (see my_http.rs)
 - [x] Async programming (async/await, Smol, Tokio) (see asyncs/)
 - [x] External process management (see external_process/)
+- [x] CSV handling (see csv/)
 - [ ] Unit and integration tests (add tests/ folder and sample tests)
 - [ ] Error propagation and custom error types (create custom error modules)
 - [ ] More advanced trait usage and lifetimes (expand my_traits.rs)
