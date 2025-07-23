@@ -22,8 +22,6 @@
 //! - [ ] Benchmarking and performance profiling
 //! - [ ] Documentation with rustdoc
 
-use external_process::my_external_proccess;
-
 mod asyncs;
 mod clap;
 mod control_flow;
@@ -49,7 +47,7 @@ mod my_traits;
 mod my_vec;
 mod tasks;
 mod time_module;
-mod user_inputs;
+mod prompt_cmd;
 
 // ================================ without async ================================
 fn main() {
@@ -60,7 +58,7 @@ fn main() {
     // control_flow::start();
 
     // Call the start function from the user_inputs module
-    // user_inputs::start();
+    // prompt_cmd::user_inputs::start();
 
     // Call the start function from the my_closures module
     // my_closures::start();
@@ -123,8 +121,8 @@ fn main() {
     // Call the start function from the csv module
     // csv::my_csv::start();
 
-    // Call the start function from the my_regulae_expression module
-    my_regular_expression::start();
+    // Call the start function from the my_regular_expression module
+    // my_regular_expression::start();
 
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();
