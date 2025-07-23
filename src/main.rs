@@ -42,6 +42,7 @@ mod my_match_expression;
 mod my_methods;
 mod my_option;
 mod my_option_overload;
+mod my_regular_expression;
 mod my_serde;
 mod my_struct;
 mod my_traits;
@@ -49,7 +50,6 @@ mod my_vec;
 mod tasks;
 mod time_module;
 mod user_inputs;
-mod my_regular_expression;
 
 // ================================ without async ================================
 fn main() {
@@ -122,7 +122,7 @@ fn main() {
 
     // Call the start function from the csv module
     // csv::my_csv::start();
-    
+
     // Call the start function from the my_regulae_expression module
     my_regular_expression::start();
 
