@@ -48,6 +48,7 @@ mod my_vec;
 mod tasks;
 mod time_module;
 mod prompt_cmd;
+mod unit_tests;
 
 // ================================ without async ================================
 fn main() {
