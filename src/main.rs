@@ -49,6 +49,7 @@ mod my_vec;
 mod tasks;
 mod time_module;
 mod user_inputs;
+mod my_regular_expression;
 
 // ================================ without async ================================
 fn main() {
@@ -120,7 +121,10 @@ fn main() {
     // external_process::my_external_proccess::start();
 
     // Call the start function from the csv module
-    csv::my_csv::start();
+    // csv::my_csv::start();
+    
+    // Call the start function from the my_regulae_expression module
+    my_regular_expression::start();
 
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();
