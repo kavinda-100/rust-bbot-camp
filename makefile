@@ -12,7 +12,7 @@ check:
 
 # Run tests
 test:
-	cargo test
+	RUSTFLAGS="-A warnings" cargo test
 
 # Build release version
 build-release:
