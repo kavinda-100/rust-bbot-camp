@@ -126,7 +126,10 @@ fn main() {
     // my_regular_expression::start();
 
     // Call the start function from the unit_tests module
-    unit_tests::my_code::start();
+    // unit_tests::my_code::start();
+
+    // Call the start function from the prompt_cmd module
+    prompt_cmd::my_inquire::start();
 
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();
