@@ -45,9 +45,9 @@ mod my_serde;
 mod my_struct;
 mod my_traits;
 mod my_vec;
+mod prompt_cmd;
 mod tasks;
 mod time_module;
-mod prompt_cmd;
 mod unit_tests;
 
 // ================================ without async ================================

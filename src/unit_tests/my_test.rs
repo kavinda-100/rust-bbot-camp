@@ -1,7 +1,7 @@
 #[cfg(test)]
 mod test {
     use super::super::my_code::*;
-    
+
     // Test for full name function with valid inputs
     #[test]
     fn test_get_full_name() {

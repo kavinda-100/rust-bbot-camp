@@ -12,8 +12,9 @@ pub fn get_full_name(first_name: &str, last_name: &str) -> String {
     // Check if first name or last name is empty
     if first_name.is_empty() || last_name.is_empty() {
         panic!("First name and last name cannot be empty");
-    }
-    else if first_name.contains(&['*', '%', '$', '#', '`', '^', '+']) || last_name.contains(&['*', '%', '$', '#', '`', '^', '+']) {
+    } else if first_name.contains(&['*', '%', '$', '#', '`', '^', '+'])
+        || last_name.contains(&['*', '%', '$', '#', '`', '^', '+'])
+    {
         panic!("First name or last name contains special characters");
     }
     // Return the full name by concatenating first and last names
