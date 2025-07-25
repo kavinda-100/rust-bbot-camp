@@ -129,7 +129,8 @@ fn main() {
     // unit_tests::my_code::start();
 
     // Call the start function from the prompt_cmd module
-    prompt_cmd::my_inquire::start();
+    // prompt_cmd::my_inquire::start();
+    prompt_cmd::my_clap::start();
 
     // Call the start function from the tasks::sort_values module
     // tasks::sort_values::start();
