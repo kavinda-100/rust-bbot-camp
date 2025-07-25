@@ -49,7 +49,6 @@ rust-bbot-camp/
 ├── README.md               # Project documentation
 ├── TRAITSANDOOP.md         # Rust vs C# traits and OOP comparison
 ├── makefile                # Custom build commands
-├── promts.txt              # Learning prompts and notes
 └── src/                    # Source code directory
     ├── main.rs                     # Main entry point with module orchestration
     │
