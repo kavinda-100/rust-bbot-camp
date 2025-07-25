@@ -51,6 +51,7 @@ mod time_module;
 mod unit_tests;
 
 // ================================ without async ================================
+#[allow(dead_code)]
 fn main() {
     // Call the start function from the my_functions module
     // my_functions::start();
